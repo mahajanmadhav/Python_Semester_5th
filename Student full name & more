@@ -1,9 +1,10 @@
-#1. Write a python program to take a student's full name and display:
+"""
+1. Write a python program to take a student's full name and display:
 -total number of characters
 -first character
 -last character
 -name in uppercase form
-
+"""
 name = input("Enter full name:")
 print("Total number of characters:",len(name))
 print("First character:",name[0])
