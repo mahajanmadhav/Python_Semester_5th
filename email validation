@@ -1,0 +1,4 @@
+#14. Take an email address and check whether it contains @ and .com
+e=input("enter Your Email address:")
+w=e.find("@")!=-1 and e.find(".com")!=-1
+print(w)

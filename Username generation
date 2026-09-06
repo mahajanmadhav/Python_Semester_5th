@@ -1,0 +1,5 @@
+#2. write a python program to take a student name and roll number, then generate a username using the first 3 letters of the name and last 2digits of the roll number
+name = input("Enter Student Name:")
+rollnum = input("Enter ROll Number:")
+username = name[:3]+rollnum[-2:]
+print("Username:",username)

@@ -1,0 +1,5 @@
+# 1. Write a python program to take temperature in celcius from the user and convert it to farenheit
+
+temp = float(input("Enter temperature:"))
+farh = temp*(9/5)+32
+print("Temperature in Fahrenheit:", farh)

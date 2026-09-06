@@ -1,0 +1,4 @@
+# 10. Write a python program to take first name and last name and print initials
+fname = input("Enter First name:")
+lname = input("Enter Last name:")
+print(fname[0],lname[0])

@@ -1,0 +1,12 @@
+"""
+5.Write a python program to take student details like name, roll number, CGPA, 
+and hostel status from the user. Typecast them into appropriate types and print
+them along with their detected type.
+"""
+print("Enter Student Details:")
+name = input("Enter Student Name:")
+rollnum = int(input("Enter Roll Number:"))
+cgpa = float(input("Enter CGPA:"))
+is_hosteller = bool(input("Are you a hosteller:"))
+print("\nDisplaying Student Details:")
+print(f"Student Name:", name,(type(name)),"\nRoll NUmber:", rollnum, type(rollnum),"\nCGPA:", cgpa, type(cgpa),"Hosteller Status:", is_hosteller, type(is_hosteller))

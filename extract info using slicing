@@ -1,0 +1,3 @@
+# 2. Take roll number like 2024a1r057 and extract admission year, program code, and roll number digits using slicing
+rollno = input("Enter roll number:")
+print(f"Addmission Year:",rollno[0:4],"\nProgram Code:",rollno[4:7],"\nRoll number:",rollno[-3:])

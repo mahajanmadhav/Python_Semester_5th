@@ -1,0 +1,5 @@
+
+tminutes= int(input("Enter Total minutes:"))
+hours = tminutes//60
+minutes = tminutes%60
+print(f"Number of hours:", hours, "Remaining minutes:", minutes)

@@ -1,0 +1,7 @@
+# 3. Take an email address and print username, domain and reversed domain
+email = input("Enter your email address:")
+index = email.find("@")
+usrname = email[:index]
+domain = email[index:]
+reverse = domain[::-1]
+print(f"Username:",usrname,"\nDomain:",domain,"\nReversed domain:",reverse)

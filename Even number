@@ -1,0 +1,9 @@
+"""
+Write a python program to take an integer and print true if the number is even and 
+false if the number is odd.
+"""
+num = int(input("Enter a number:"))
+if num%2==0:
+    print(True)
+else:
+    print(False)

@@ -1,0 +1,12 @@
+"""
+2.Write a python program to take marks of three subjects out of 100.
+"""
+print true if the student scored atleast 40 in all three subjects and average marks are atleast 50.
+ist = int(input("Enter Ist subject's marks:"))
+second = int(input("Enter 2nd subject's marks:"))
+third = int(input("Enter 3rd subject's marks:"))
+average = (ist+second+third)/3
+if ist >= 40 and second >=40 and third >=40 and average>=50:
+    print(True)
+else:
+    print(False)

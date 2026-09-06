@@ -1,0 +1,10 @@
+"""
+4.Write a program to take input from the user without typecasting and multiply it by 3. 
+Then typecast the same input to int and multiply it by 3. 
+Print both results to show the difference.
+"""
+num = input("Enter a value:")
+pro = num*3
+num1 = int(input("Enter a value:"))
+product = num1*3
+print(f"Result without typecasting:",pro,"\nResult with typecasting:", product)
