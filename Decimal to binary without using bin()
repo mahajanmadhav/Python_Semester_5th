@@ -1,0 +1,15 @@
+# Write a python program to input a decimal number annd convert it into binary without using built-in bin() function
+num = int(input("Enter a decimal number: "))
+if num == 0:
+    print("The binary equivalent is: 0")
+elif num < 0:
+    print("Please enter a non-negative integer.")
+else:
+    binary_str = ""
+    temp = num
+    while temp > 0:
+        remainder = temp % 2
+        binary_str = str(remainder) + binary_str
+        temp = temp // 2
+        
+    print(f"The binary equivalent of {num} is: {binary_str}")
