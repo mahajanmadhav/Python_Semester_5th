@@ -1,0 +1,7 @@
+#Write a Python program to input two numbers and find their greatest common divisor using a loop
+a = 48
+b = 18
+
+while b != 0:
+    a, b = b, a % b  
+print("The GCD is:", a)
